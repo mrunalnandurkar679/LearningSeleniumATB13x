@@ -1,5 +1,6 @@
 package com.thetestingacademy.ex01_Selenium_Basics;
 
+import com.Automation.ex01_Selenium_Basics.DriverUploadRequest;
 import io.restassured.RestAssured;
 
 import java.io.File;

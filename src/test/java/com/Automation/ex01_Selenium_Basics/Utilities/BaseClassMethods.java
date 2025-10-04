@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex01_Selenium_Basics.Utilities;
+package com.Automation.ex01_Selenium_Basics.Utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
