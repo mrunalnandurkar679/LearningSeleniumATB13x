@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/mrunaln/OneDrive - AMDOCS/Desktop/personal documnets/Automation testing docs and learning/LearningSeleniumATB13x/src/test/java/com/Automation/ex01_Selenium_Basics/TestNGAnnotation/GroupingAnnotations/LoginTests.java">
+        <classes>
+            <class name="com.Automation.ex01_Selenium_Basics.TestNGAnnotation.GroupingAnnotations.LoginTests"/>
+            <class name="com.Automation.ex01_Selenium_Basics.TestNGAnnotation.GroupingAnnotations.PaymentTests"/>
+            <class name="com.Automation.ex01_Selenium_Basics.TestNGAnnotation.GroupingAnnotations.SignupTests"/>
+
+        </classes>
+
+        <groups>
+            <run>
+                <include name="functional"/>
+                <include name="sanity"/>
+                <exclude name="regression"/>
+            </run>
+
+        </groups>
+    </test>
+</suite>
